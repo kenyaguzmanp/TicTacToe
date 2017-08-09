@@ -1,0 +1,152 @@
+body{
+    background-color: black;
+    background-image: url(https://s-media-cache-ak0.pinimg.com/originals/39/9e/22/399e22bc7062499c0def05120d2b76eb.jpg); 
+    background-position: top;
+    background-size: 105%;
+/*    background-attachment: fixed;*/
+/*    background-repeat: no-repeat;
+    background-attachment: scroll;*/
+    font-family: 'Paytone One', sans-serif;
+}
+
+#title{
+    color: rgb(127, 81, 136);
+    font-size: 91px;
+    font-family: 'Paytone One', sans-serif;
+}
+
+#titleMiddle{
+    color: rgb(31, 142, 118);
+}
+
+.main-container {
+    height: 100%;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.board {
+    height: 420px;
+    width: 420px;
+    margin: 50px auto;
+    margin-bottom: 10px;
+}
+
+.cell {
+    width: 140px;
+    height: 140px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    cursor:pointer;
+    float:left;
+    line-height: 140px;
+    text-align: center;
+/*    font-family: "Arial Narrow";*/
+    font-family: 'Paytone One', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+#cell0{
+    border-top: none;
+    border-left: none;
+}
+
+#cell3{
+  border-left: none;
+}
+
+#cell6{
+    border-left: none;
+    border-bottom: none;
+}
+
+#cell1{
+    border-top:none;
+}
+
+#cell7{
+    border-bottom: none;
+}
+
+#cell2{
+    border-top: none;
+    border-right: none;
+}
+
+#cell5{
+    border-right: none;
+}
+
+#cell8{
+    border-right: none;
+    border-bottom: none;
+}
+
+.control {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 37px;
+}
+
+#reset{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.level {
+    margin: 0 15px;
+    color: rgb(31, 142, 118);
+    cursor: pointer;
+}
+
+.not-selected {
+    opacity: 0.5;
+}
+
+.not-selected:hover {
+    opacity:1;
+}
+
+.start {
+    margin-top: 20px;
+    width: 137px;
+    height: 100px;
+    background-color: rgb(31, 142, 118);
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    -webkit-border-radius:100%;
+    -moz-border-radius:100%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    cursor:pointer;
+    opacity:0.5;
+}
+
+.start:hover {
+    opacity:1;
+}
+
+.ingame {
+    display:none;
+    color: rgb(127, 81, 136);
+}
+
+.ingame > p {
+    margin:0px;
+}
+
+
+@media (max-width: 1280px) {
+    body{
+        background-position: top;
+        background-size: 201%;
+       
+    }
+}
